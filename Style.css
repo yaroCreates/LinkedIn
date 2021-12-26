@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open sans", sans-serif;
+}
+
+.container {
+}
+
+.content {
+    margin: 0 auto;
+    width: 600px;
+    background-color: aquamarine;
+}
+
+.logo {
+    width: 20%;
+}
