@@ -4,7 +4,17 @@
 }
 
 body{
-    font-family: "Open sans", sans-serif;
+    font-family: "segoe UI", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.header {
+    height: 80px;
+}
+
+.logo {
+    width: 120px;
+    margin: 32px 0 0 56px;
 }
 
 .container {
@@ -12,10 +22,89 @@ body{
 
 .content {
     margin: 0 auto;
-    width: 600px;
-    background-color: aquamarine;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1.5em;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
-.logo {
-    width: 20%;
+.tag{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
+
+.text-field {
+    width: 100%;
+    padding: 14px 10px 14px 10px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font: inherit;
+    font-size: 18px;
+
+}
+.tag h1 {
+    font-weight: 500;
+}
+
+.tag p {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#text-field2 {
+    margin-top: 15px;
+} 
+
+form a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #0073b1;
+    display: block;
+    margin-bottom: 0px;
+}
+
+form button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 50px;
+    margin: 0px 0 10px 0;
+    border-style: none;
+    background-color: #0a66c2;
+    color: #fff;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.button2 {
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+
+
+.btn-divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form span {
+    margin-right: 20px;
+    margin-left: 20px;
+    font: inherit;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+
