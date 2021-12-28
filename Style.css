@@ -6,6 +6,8 @@
 body{
     font-family: "segoe UI", sans-serif;
     letter-spacing: 0.2px;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .header {
@@ -22,6 +24,7 @@ body{
 
 .content {
     margin: 0 auto;
+
     width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 1.5em;
@@ -111,6 +114,7 @@ form span {
     justify-content: center;
     text-align: center ;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .join-tag a {
@@ -124,6 +128,7 @@ form span {
 
 .footer {
     margin: 0 auto;
+    min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +136,12 @@ form span {
 
 .footer a {
     text-decoration: none;
-    
+    font: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 7px 0 7px
+
 }
 
 .copyright {
@@ -146,4 +156,6 @@ form span {
 .copyright-img {
     width: 3.5em;
 }
+
+
 
